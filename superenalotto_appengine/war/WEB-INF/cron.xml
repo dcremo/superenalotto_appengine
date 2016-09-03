@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/download</url>
+    <description>Download results from Sisal web site</description>
+    <schedule>every 1 minutes from 20:00 to 22:00</schedule>
+    <timezone>Europe/Rome</timezone>
+  </cron>
+</cronentries>

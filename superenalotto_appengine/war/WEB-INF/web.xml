@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<description>SuperEnalottoDroid Server 3.2</description>
+	<display-name>SuperEnalottoDroid Server 3.2</display-name>
+  <servlet>
+    <servlet-name>UltimaEstrazione</servlet-name>
+    <servlet-class>it.davidecremonesi.superenalotto.UltimaEstrazioneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>it.davidecremonesi.superenalotto.DownloadServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>UltimaEstrazione</servlet-name>
+    <url-pattern>/ultimaestrazione</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
