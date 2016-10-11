@@ -12,8 +12,4 @@ public class TestRSSDate extends TestCase {
 		assertEquals(12, fff.length());
 	}
 
-	public void testFormatDateString() {
-		fail("Not yet implemented");
-	}
-
 }

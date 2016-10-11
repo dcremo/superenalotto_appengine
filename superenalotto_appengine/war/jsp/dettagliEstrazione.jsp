@@ -1,4 +1,6 @@
-<%@page pageEncoding="UTF-8" %><%@page import="it.davidecremonesi.superenalotto.Versione"%><%@page import="java.util.List"%><%@page import="it.davidecremonesi.atom.*"%><%@page import="it.davidecremonesi.superenalotto.xml.EstrazioneService"%><%@page import="it.davidecremonesi.superenalotto.Estrazione"%><%@page import="java.util.Calendar"%><%@page import="java.util.ArrayList"%><%@page import="it.davidecremonesi.superenalotto.SuperEnalottoParser"%><%
+<%@page import="it.davidecremonesi.superenalotto.persistence.Estrazione"%>
+<%@page import="it.davidecremonesi.superenalotto.persistence.EstrazioneService"%>
+<%@page pageEncoding="UTF-8" %><%@page import="it.davidecremonesi.superenalotto.Versione"%><%@page import="java.util.List"%><%@page import="it.davidecremonesi.atom.*"%><%@page import="it.davidecremonesi.superenalotto.persistence.EstrazioneService"%><%@page import="it.davidecremonesi.superenalotto.persistence.Estrazione"%><%@page import="java.util.Calendar"%><%@page import="java.util.ArrayList"%><%@page import="it.davidecremonesi.superenalotto.input.SuperEnalottoParser"%><%
 response.setContentType("text/html");
 
 String data = request.getParameter("data");

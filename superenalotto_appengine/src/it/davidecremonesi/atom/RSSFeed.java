@@ -1,6 +1,5 @@
 package it.davidecremonesi.atom;
 
-import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
@@ -11,7 +10,7 @@ import java.util.Locale;
   <id>http://groups.google.com/group/gtug-milano</id>
   <title type="text">GTUG Milano Google Group</title>
   <subtitle type="text">
-  Benvenuti nella mailing list del GTUG di Milano (http://sites.google.com/a/gtugs.org/milano/). Qui la community si rafforza costruendo rapporti di amicizia, proponendo nuove idee e scambiando esperienze. Inoltre è da qui che prenderanno forma gli eventi futuri, qualunque proposta è benvenuta!
+  Benvenuti nella mailing list del GTUG di Milano (http://sites.google.com/a/gtugs.org/milano/). Qui la community si rafforza costruendo rapporti di amicizia, proponendo nuove idee e scambiando esperienze. Inoltre ï¿½ da qui che prenderanno forma gli eventi futuri, qualunque proposta ï¿½ benvenuta!
   </subtitle>
   <link href="/group/gtug-milano/feed/atom_v1_0_msgs.xml" rel="self" title="GTUG Milano feed"/>
   <updated>2011-05-25T06:49:32Z</updated>
@@ -43,7 +42,7 @@ import java.util.Locale;
   <link href="http://groups.google.com/group/gtug-milano/browse_thread/thread/dab3ee2af5c139e0/36d3f729d1839d2c?show_docid=36d3f729d1839d2c"/>
   <title type="text">Live webinar su Chromebooks OGGI alle 18:00 (ora italiana)</title>
   <summary type="html" xml:space="preserve">
-  Per tutti i curiosi che vogliono saperne di più sull&#39;ultima novità di &lt;br&gt; casa Google oggi pomeriggio, ore 18:00 italiane, ci sarà un Live &lt;br&gt; webinar sui Chromebooks. &lt;br&gt; &lt;p&gt;&amp;quot;Learn why Chromebooks for Business is the best platform for business &lt;br&gt; applications delivered through the browser. Join Jeff Keltner - Head
+  Per tutti i curiosi che vogliono saperne di piï¿½ sull&#39;ultima novitï¿½ di &lt;br&gt; casa Google oggi pomeriggio, ore 18:00 italiane, ci sarï¿½ un Live &lt;br&gt; webinar sui Chromebooks. &lt;br&gt; &lt;p&gt;&amp;quot;Learn why Chromebooks for Business is the best platform for business &lt;br&gt; applications delivered through the browser. Join Jeff Keltner - Head
   </summary>
 
   </entry>
@@ -58,7 +57,7 @@ public class RSSFeed {
     this.header = header;
   }
   
-  public void setEntries(List entries){
+  public void setEntries(List<RSSEntry> entries){
     this.entries = entries;
   }
 
